@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#f6f1e9] py-3 px-6 mt-6 flex items-center justify-between shadow-md border-[1px] border-[#cfcfcf] rounded-full">
+    <nav className="bg-[#F6F5F2] py-3 px-6 mt-6 flex items-center justify-between shadow-md border-[1px] border-[#cfcfcf] rounded-full">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <img src="/favicon.ico" alt="Logo" className="w-8 h-8" />
@@ -93,7 +93,7 @@ const Navbar = () => {
       </div>
 
       {/* Sidebar */}
-      <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
+      <div className={`sidebar ${isSidebarOpen ? "open" : ""}`} style={{ backgroundColor: "#F6F5F2" }}>
         <button className="close-button" onClick={() => setSidebarOpen(false)}>
           <X size={24} />
         </button>

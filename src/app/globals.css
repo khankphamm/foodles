@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #f6f1e9;
+  --background: #F6F5F2;
   --foreground: #171717;
 }
 
@@ -20,7 +20,7 @@
 }
 
 body {
-  max-width: 1460px;
+  max-width: 1260px;
   margin: 0 auto;
   padding: 0 20px;
   color: var(--foreground);
@@ -29,7 +29,7 @@ body {
 }
 
 .container{
-  max-width: 1460px;
+  max-width: 1260px;
   margin: 0 auto;
   padding: 0 20px;
 }

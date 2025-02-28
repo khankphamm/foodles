@@ -32,7 +32,7 @@ const SearchPage = () => {
 
     return (
         <div className="container mt-8">
-            <h1 className="text-2xl font-bold">Search Results for "{query}"</h1>
+            <h1 className="text-2xl font-bold mt-4">Search Results for "{query}"</h1>
             {error ? (
                 <p className="text-red-500 mt-4">Error: {error}</p>
             ) : recipes.length > 0 ? (
