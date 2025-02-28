@@ -17,7 +17,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: ;
 }
 
 body {
@@ -27,4 +26,10 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
