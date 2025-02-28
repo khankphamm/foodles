@@ -33,6 +33,7 @@ src/
     │   ├── globals.css          # CSS toàn cục
     │   ├── variables.css        # Các biến CSS dùng chung
 
+
 ** hướng dẫn git **
 
 git add .                         #chon tất cả đẩy vào thư mục chung trong git
