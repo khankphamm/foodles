@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+
+    .nav-links,
+    .desktop-buttons {
+        display: none;
+    }
+
+    .menu-button {
+        display: block !important;
+    }
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background: #f6f1e9;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 50;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    align-self: flex-end;
+    padding: 5px;
+}
+
+/* Nút tìm kiếm và Subscribe trong sidebar */
+.sidebar-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
