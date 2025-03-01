@@ -42,7 +42,3 @@ git push                          #đây lên github
 git pull                          #lấy từ github về máy
 
 ![alt text](image.png)            #ảnh tổng quan cách hoạt động của git đẩy lên github
-
-<li key={index} className="hover:text-white">
-                <Link href={`/${item.replace(/\s+/g, "")}`}>{item.toUpperCase()}</Link>
-              </li>
