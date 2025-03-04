@@ -41,7 +41,7 @@ const SearchPage = () => {
                         <li key={recipe.idMeal} className="border p-4 rounded-md mb-4 flex items-center gap-4">
                                 <div className="w-1/2">
                                 <h2 className="text-lg font-semibold">{recipe.strMeal}</h2>
-                                <p className="text-gray-600">{recipe.strInstructions}</p>
+                                <p className="text-gray-600 text-justify">{recipe.strInstructions}</p>
                             </div>
 
                             <div className="w-1/2 flex justify-center">
